@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+.banner {
+    height: 836px;
+    background: url(../image/beautiful-black-family-holding-cardboard-roof-dreaming-of-new-home.jpg) no-repeat 3px -20px;
+    background-size: 100%;
+    position: relative;
+}
+
+/* header started */
+
+.header {
+    height: 75px;
+    background: var(--green);
+    border-radius: 0 0 45px 45px;
+    padding: 0 8% 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    height: 60px;
+}
+
+.logohaya {
+    width: 108px;
+}
+
+
+.optionslist1 {
+    list-style: none;
+    position: relative
+}
+
+
+.optionslist1 li {
+    margin-left: 50px;
+    float: left;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: roboto;
+}
+
+.optionslist1 .search {
+    width: 0;
+    padding: 0;
+    border: 0;
+}
+
+.optionslist1 .collapsetoggle {
+    height: 30px;
+    width: 150px;
+    border-radius: 22px;
+    padding-left: 10px;
+    background: rgb(255 255 255 / 70%);
+}
+
+
+.optionslist1 .searchicon {
+    width: 45px;
+    height: 33px;
+    background: url(../image/icons.png) no-repeat 3px -57px;
+}
+
+
+.getinsurance {
+    height: 35px;
+    background: var(--orange);
+    border-radius: 5px 5px 5px 5px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    font-family: roboto;
+    padding: 10px 20px 0px 20px;
+}
+
+.searchh {
+    width: 255px;
+    height: 30px;
+    padding: 3px;
+    background: #c44700;
+    position: absolute;
+    top: 63px;
+    right: 300px;
+    display: none;
+
+}
+
+.searchmain{
+    box-sizing: border-box;
+    padding-left: 13px;
+    height: 31px;
+    background: #dadada;
+    width: 100%;
+    border: none;
+  
+}
+
+
+.menubar {
+    display: none;
+}
+
+.menunavigation{
+    padding: 10px 0 0 10%;
+   display: none;
+    z-index: 999;
+    width: 83%;
+    height: 100vh;
+    background: var(--green);
+    top: 0;
+    position: fixed;
+    transition: 1s all;
+    z-index: 999;
+   
+}
+
+
+.searchhmobile{display: none;}
+
+.searchmainn{
+  box-sizing: border-box;
+  padding-left: 13px;
+  height: 31px;
+  background: #dadada;
+  width: 90%;
+  height: 46px;
+  border: none;
+}
+
+
+
+
+.backbutton{
+    margin-bottom: 25px;
+    width: 57px;
+    height: 27px;
+   
+}
+
+
+.backimg {
+    width: 53%;
+}
+
+.navigationn {
+    margin-left: 50px;
+}
+
+.logonav{
+    width: 62px;
+    height: 33px;  
+}
+
+
+.optionslist {
+    list-style: none;
+    position: relative
+}
+
+
+.optionslist li {
+    margin-top: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: roboto;
+}
+
+.optionslist .search {
+    width: 0;
+    padding: 0;
+    border: 0;
+}
+
+.optionslist .collapsetoggle {
+    height: 30px;
+    width: 150px;
+    border-radius: 22px;
+    padding-left: 10px;
+    background: rgb(255 255 255 / 70%);
+}
+
+
+.optionslist .searchicon {
+    width: 45px;
+    height: 33px;
+    background: url(../image/icons.png) no-repeat 3px -57px;
+}
+
+
+.getinsurancee {
+    width: 25%;
+    height: 35px;
+    background: var(--orange);
+    border-radius: 5px 5px 5px 5px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    font-family: roboto;
+    margin-top: 10px;
+}
+
+/* header ended */
+
+
+
+
+.mainheading {
+    color: #ffffff;
+    font-family: robotoblack;
+    font-size: 40px;
+    position: absolute;
+    top: 335px;
+    left:4%;
+    text-shadow: -1px 3px 4px #000000; 
+}
+
+
+
+.heading {
+    color: #ffffff;
+    font-size: 29px;
+    position: absolute;
+    top: 485px;
+    left: 4%;
+    text-shadow:-1px 3px 3px #000000;
+}
+
+

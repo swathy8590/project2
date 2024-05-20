@@ -1,0 +1,224 @@
+
+
+.bodysection {
+
+    row-gap: 80px;
+    display: flex;
+    height: auto;
+    background: #ffffff;
+    padding: 166px 8% 103px 8%;
+    flex-direction: column;
+      }
+
+
+
+/* about started */
+
+
+.about {
+  gap: 20px;
+  height: auto;
+  display: flex;
+
+
+}
+
+
+
+
+.abouttext {
+  row-gap: 20px;
+  height: 400px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  ;
+}
+
+.readmore {
+  width: 123px;
+  height: 32px;
+  background: var(--green);
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.aboutimage {
+  height: 400px;
+  width: 50%;
+  position: relative;
+}
+
+.greenbox {
+  width: 85%;
+  height: 175px;
+  background: var(--green);
+}
+
+.imagebox {
+  width: 94%;
+  height: 350px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 99;
+  overflow: hidden;
+}
+
+.imageabout {
+  width: 100%;
+  height: auto;
+}
+
+.orangebox {
+  width: 85%;
+  height: 175px;
+  background: var(--orange);
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+}
+
+/* about finished */
+
+/* best plan start */
+
+.bestplans {
+  height: auto;
+
+}
+
+.plansheading {
+  height: 70px;
+  text-align: center;
+
+}
+
+
+.plansboxmain {
+  display: flex;
+  gap: 20px;
+}
+
+.plansbox {
+  height: 245px;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+
+.innerplanbox {
+  width: 100%;
+  height: 66px;
+  background: var(--green);
+  position: absolute;
+  bottom: 0;
+  filter: opacity(0.8);
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+
+.plansbox:hover{
+  .innerplanbox{background: var(--orange);}}
+ 
+.imgein {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+/* best plan end */
+
+
+
+
+
+.box {
+ 
+   gap: 100px; 
+  height: 274px;
+  background: var(--green);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.mainbox {
+  color: #ffffff;
+  display: flex;
+  gap: 24px;
+  width: 27%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.service {
+  width: 132px;
+  height: 130px;
+  background: var(--orange);
+  border-radius: 171px;
+  outline: 13px solid #ffffff0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: robotobold;
+
+
+}
+
+
+
+/* family health insurance start */
+
+
+.familyhealth {
+  height: auto;
+  display: flex;
+  gap: 5%;
+
+}
+
+.healthheading {
+  font-size: 29px;
+}
+
+
+.healthtext {
+  row-gap: 20px;
+  display: flex;
+  max-width: 50%;
+  flex-grow: 1;
+  flex-direction: column
+}
+
+.abouthealth {
+  font-size: 22px;
+}
+
+
+
+.healthimage {
+  flex-grow: 1;
+  border-radius: 23px;
+  overflow: hidden;
+}
+
+.imageh {
+  min-height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+/* family health insurance end */

@@ -1,0 +1,189 @@
+
+
+
+
+.bodycontent {
+    height: auto;
+    padding: 0 8% 140px 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+.Ourfeatures {
+    row-gap: 40px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+.featuresheading {
+    text-align: center;
+
+
+}
+
+
+.featuresmain {
+    display: flex;
+    gap: .8%;
+}
+
+.featuresimg {
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgf {
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+
+.featurestext {
+    text-align: center;
+    margin: 10px;
+}
+
+.featurestext a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+/* award */
+
+
+.award {
+    row-gap: 40px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+.awardheading {
+    text-align: center;
+
+}
+
+.awardmain {
+    display: flex;
+    gap: 1%;
+}
+
+
+.awardimg {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imga {
+    max-height: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+
+.awardtext {
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* award end */
+
+/* feedback */
+
+.feedback {
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbackheading {
+    text-align: center;
+
+}
+
+.feedbackmain {
+    height: auto;
+    display: flex;
+    gap: 2%;
+  
+}
+
+.feedbackbox {
+    height: 300px;
+    background: var(--orange);
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.feedbackperson {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 300px;
+}
+
+.personfeedback{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 10px;
+    text-align: left;
+
+}
+
+.feedbackimg {
+    width: 88px;
+    z-index: 9;
+    height: 88px;
+    border-radius: 127px;
+    border: 4px solid #217264;
+    overflow: hidden;
+}
+
+.feedbackname {
+    padding: 15px 45px 0 45px;
+    top: 10px;
+    position: relative;
+    right: 39px;
+    height: 35px;
+    background: var(--green);
+    border-radius: 0 0 49px 0;
+    text-align: center;
+}
+.feedbacktext {
+    padding: 0px 90px;
+    text-align: left;
+
+}
+
+.imgfeed {
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+.star {
+    width: 70%;
+    height: 37px;
+    margin-top: 10px;
+}
+
+.imgstar {
+    height: 24px;
+}
+
+/* feedback end */
+

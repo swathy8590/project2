@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="38.685" viewBox="0 0 82 38.685">
+  <g id="Group_10" data-name="Group 10" transform="translate(-7.001 -21.669)">
+    <path id="Path_6" data-name="Path 6" d="M65.441,33.664h0a35.313,35.313,0,0,0-23.449-10.69c-12.439-.505-21.126,6.109-23.454,7.938a34.478,34.478,0,0,0-2.752,2.407" transform="translate(4.743 0)" fill="#fff" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_7" data-name="Path 7" d="M29.659,23l6.051,10.492.08.145" transform="translate(13.194 0.033)" fill="none" stroke="#1a1818" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Rectangle_53" data-name="Rectangle 53" d="M2.5,0h75A2.5,2.5,0,0,1,80,2.5V12.636a2.536,2.536,0,0,1-2.536,2.536H2.5a2.5,2.5,0,0,1-2.5-2.5V2.5A2.5,2.5,0,0,1,2.5,0Z" transform="translate(8.001 33.665)" fill="#fff" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+    <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="7.586" cy="7.069" rx="7.586" ry="7.069" transform="translate(67.32 45.216)" fill="#fff" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+    <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="7.586" cy="7.069" rx="7.586" ry="7.069" transform="translate(12.031 45.216)" fill="#fff" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
