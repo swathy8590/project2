@@ -33,7 +33,11 @@
         src: url(../fonts/Roboto-Medium.ttf);
 }
 
+@font-face {
+        font-family: "CFTommorowToysDemo";
+        src: url("data:application/font-truetype;charset=utf-8;base64,Li4vZm9udHMvQ0ZUb21tb3Jvd1RveURlbW8udHRm") ;
 
+}
 
 body {
         font-family: "roboto";
@@ -541,12 +545,18 @@ body {
         .menunavigation {
                  right: -500px;
                  }
+
+
+       .getinsurancee {
+                 width: 47%;
+                 }
+
         .mainheading {
-                font-size: 16px;
+                font-size: 15px;
                 }
 
         .heading{
-                font-size: 14px;
+                font-size: 12px;
         }
 
         .widgetmain{
@@ -610,7 +620,7 @@ body {
         }
 
         .service{
-                width: 103px;
+                width: 95px;
         }
 
        .bodycontent{
