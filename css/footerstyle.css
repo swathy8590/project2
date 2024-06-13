@@ -2,6 +2,7 @@
 
 
 
+
 .footer {
     background: #0D0D0D;
     padding-top: 70px
@@ -31,7 +32,6 @@ padding: 0 8% 0 8%;}
 
 .ficonmain {
     display: flex;
-    gap: 10px;
 }
 
 .footericon {
@@ -65,10 +65,11 @@ padding: 0 8% 0 8%;}
     color: #ffffff;
 }
 
-.copyright{
+.copyright {
+    height: 24px;
     padding-top: 10px;
     text-align: center;
-    background: #7f6e6e;
+    background: #a3572b;
     margin-top: 10px;
     font-size: 10px;
 }

@@ -1,0 +1,27 @@
+Navy Blue
+Hex Code: #000080
+RGB Code: (0, 0, 128)
+
+Sky Blue
+Hex Code: #87CEEB
+RGB Code: (135, 206, 235)
+
+Royal Blue
+Hex Code: #4169E1
+RGB Code: (65, 105, 225)
+
+Turquoise
+Hex Code: #40E0D0
+RGB Code: (64, 224, 208)
+
+Cobalt Blue
+Hex Code: #0047AB
+RGB Code: (0, 71, 171)
+
+Powder Blue
+Hex Code: #B0E0E6
+RGB Code: (176, 224, 230)
+
+Teal
+Hex Code: #008080
+RGB Code: (0, 128, 128)
