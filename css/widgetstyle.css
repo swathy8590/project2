@@ -164,30 +164,57 @@ position: absolute;
 
 
 .moreplann {
+  border-radius: 10px;
   display: none;
-    padding: 20px;
+    padding: 40px;
     z-index: 997;
     bottom: 23px;
     position: relative;
     width: 100%;
-    background: #31ad97;
+    background:#217264;
+    color: #ffffff;
+    box-sizing: border-box;
 }
 
-.productsmain{
+/* .productsmain{
     gap: 10px;
     display: grid;
     grid-template-columns: 20% auto auto;
 }
 
 
-.products{
-  height: 300px;
-  background: #24366b;
-}
+.products {
+  padding:10px;
+  border: 1px solid;
+  height: 300px; */
+
+/* } */
 
 .productoption{
-    
-    color: #ffffff;
+  gap: 10px;
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 60px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  border: 1px solid #ff7e35;
+  border-radius: 10px;
+  align-items: center;
   
 
 }
+
+.motoroption{
+  margin-left: 15px;
+}
+
+
+.motoroption li{
+  margin-top:10px
+}
+
+.moreplanhead
+{margin-bottom: 20px;
+  text-align: center;}
