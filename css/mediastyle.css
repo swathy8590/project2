@@ -1,180 +1,187 @@
+@media screen and (max-width:1300px) {
 
-@media  screen and (max-width:1300px){
-
-    .mainheading{
-            top: 262px;
-            font-size: 35px;
-    }
-
-    
-
-    .widgetmain{top:530px}
-
-    .selectbox{
-            min-width: 160px;
-    }
-
-    .orangebox{
-            bottom: 36px;
-    }
+        .mainheading {
+                top: 262px;
+                font-size: 35px;
+        }
 
 
-    .bestplans {
-        margin-top: 0px;
-    }
+
+        .widgetmain {
+                top: 530px
+        }
+
+        .selectbox {
+                min-width: 160px;
+        }
+
+        .orangebox {
+                bottom: 36px;
+        }
 
 
-}
-
-
-@media  screen and (max-width:1250px){
-
-.orangebox{
-            bottom: 58px;
-    }
-
-    .bodysection{
-        padding-top: 96px ;
-    }
+        .bestplans {
+                margin-top: 0px;
+        }
 
 
 }
 
-@media  screen and (max-width:1080px){
 
-    .logohaya {
-            width: 80px;
-    }
+@media screen and (max-width:1250px) {
 
-    .navigation {
-            display: none;
-    }
+        .orangebox {
+                bottom: 58px;
+        }
 
-    .getinsurance {
-             display: none;
-    }
-
-    .menubar {
-            display: block;
-    }
-
-    .menunavigation {
-            right: -1900px;
-            display: block;
-    }
+        .bodysection {
+                padding-top: 96px;
+        }
 
 
-    .mainheading{
-            top:213px;
-            font-size: 32px;
-    }
+}
+
+@media screen and (max-width:1080px) {
+
+        .logohaya {
+                width: 80px;
+        }
+
+        .navigation {
+                display: none;
+        }
+
+        .getinsurance {
+                display: none;
+        }
+
+        .menubar {
+                display: block;
+        }
+
+        .menunavigation {
+                right: -1900px;
+                display: block;
+        }
 
 
-    
-    .widgetmain{
-            top: 437px;}
-
-    .widgetbox{
-            font-size: 12px;
-            margin-left: 36px;
-    }
-
-    .selectbox{
-            min-width: 128px;
-    }
-
-    .icon{
-            width: 28px;
-    }
-
-    .icons{
-            width: 43px;
-    }
-
-    .medium{
-            font-size: 14px;}
-
-    .calculateprice{
-            width: 77%;
-            height: 61px;
-    }
-
-    .bodysection {
-        padding-top: 10px;
-    }
-
-    .aboutimage {
-        height: 336px;
-    }
-
-    
-
-    .orangebox {
-        left: 72px;
-        bottom: 32px;
-    } 
-
-    .bestplans {
-        margin-top: 0px;
-    }
+        .mainheading {
+                top: 213px;
+                font-size: 32px;
+        }
 
 
-    .feedbackname{
-            width: 35%;
-            left: 80px;
-    }
 
-    .imageh {
-        min-height: 86%;
-    }
+        .widgetmain {
+                top: 437px;
+        }
+
+        .widgetbox {
+                font-size: 12px;
+                margin-left: 36px;
+        }
+
+        .selectbox {
+                min-width: 128px;
+        }
+
+        .icon {
+                width: 28px;
+        }
+
+        .icons {
+                width: 43px;
+        }
+
+        .medium {
+                font-size: 14px;
+        }
+
+        .calculateprice {
+                width: 77%;
+                height: 61px;
+        }
+
+        .bodysection {
+                padding-top: 10px;
+        }
+
+        .aboutimage {
+                height: 336px;
+        }
+
+
+
+        .orangebox {
+                left: 72px;
+                bottom: 32px;
+        }
+
+        .bestplans {
+                margin-top: 0px;
+        }
+
+
+        .feedbackname {
+                width: 35%;
+                left: 80px;
+        }
+
+        .imageh {
+                min-height: 86%;
+        }
 
 }
 
 
 
 
-@media  screen and (max-width:900px){
+@media screen and (max-width:900px) {
 
-    .mainheading{
-            top:196px;
-            font-size: 30px;
-    }
-
-
-    .widgetmain{top: 375px;}
-
-    .bookingwidget{
-            border-radius: 18px;
-    }
+        .mainheading {
+                top: 196px;
+                font-size: 30px;
+        }
 
 
-    .selectbox{
-            min-width: 95px;
-    }
+        .widgetmain {
+                top: 375px;
+        }
+
+        .bookingwidget {
+                border-radius: 18px;
+        }
 
 
-    .banner {
-        height: 783px;
-    }
+        .selectbox {
+                min-width: 95px;
+        }
 
-    /* .aboutimage {
+
+        .banner {
+                height: 783px;
+        }
+
+        /* .aboutimage {
         height:0px;
     } */
 
-    
-
-    .orangebox {
-        left: 68px;
-        bottom: 47px;
-            
-    }
 
 
-    .aboutp{
-            display: none;} 
+        .orangebox {
+                left: 68px;
+                bottom: 47px;
 
-    .box{
-        gap:67px}
+        }
+
+
+        .aboutp {
+                display: none;
+        }
+
+        .box {
+                gap: 67px
+        }
 
 
         .imageh {
@@ -182,17 +189,17 @@
                 min-height: 69%;
         }
 
-  
+
 }
 
 
-@media screen and (max-width: 800px){
-        
+@media screen and (max-width: 800px) {
+
         .orangebox {
                 bottom: 170px;
         }
 
-       
+
 
         .aboutimage {
                 height: 384px;
@@ -205,373 +212,389 @@
         }
 
 
-        
-
-}
-
-
-
-
-@media screen and (max-width: 768px){
-
-    .banner{
-            height: auto;
-            width: 100%;
-           }
-
-    .header{
-            height:53px;
-            border-radius: 0 0 29px 29px;
-    }
-
-    .logo{
-            height: 38px;
-    }
-
-    .logohaya{
-            width: 68px;
-    }
-    .calculateprice {
-            width: 100%;
-            height: 65px;
-    }
-
-    .mainheading {
-            top: 117px;
-            
-            font-size: 22px;}
-
-
-    .widgetmain{
-            top: 190px;
-            margin-bottom: 108px;}
-
-    .widgetbox{font-size: 9px;
-            height: 29px;
-            border-radius: 20px 20px 0 0;}
-
-    .bookingwidget{
-            grid-template-columns: auto auto;
-             border-radius: 15px;}
-
-
-    .selectbox {
-             min-width: 155px;
-    }
-
-    .moreplans {
-        padding-top: 22px;
-    }
-
-    .bodysection {
-        padding-top: 107px;
-    }
-
-    
-    .orangebox{
-            left: 98px;
-            top: 222px;}
-
-    .about{
-            height: auto; 
-            flex-direction: column;
-            padding-bottom: 28px;}
-
-    .abouttext{
-            text-align: center;
-            height: auto;
-            max-width: 100%;
-              }
-
-    .aboutheading{
-            text-align: center;}
-
-    .aboutimage{
-            width: 100%;
-            height: 366px;}
-
-
-    
-    .abouthaya{
-             font-size: 17px;
-            }
-
-    .plansbox{
-            width:100%;
-            height: 287px;}
-
-    
-
-    .box {
-            justify-content:space-evenly;
-            gap: 26px
-    }
-
-
-    .familyhealth{flex-direction: column;}
-
-    .blackk{
-        font-size: 36px;
-    }
-
-    .healthheading {
-            font-size: 20px;
-    }
-
-    .healthtext{
-            max-width: 100%;
-            text-align: center;
-            align-items: center;}
-
-    .readmore{
-            margin-bottom: 10px;
-    }
-
-    .featuresbox{
-                    width:100%;
-                   }
-   
-
-
-    .awardbox{
-                    width:100%;
-                   }
-
-    .feedbackbox{
-                    width:100%;
-                   }
-
-     .feedbacktext {
-                    padding: 0px 12px;
-
-     }
-
-    .footermain{
-            grid-template-columns: auto auto;
-            gap: 21px;
-    }
-
 
 
 }
 
 
-@media screen and (max-width: 650px){
-
-    .orangebox {
-            left: 93px;
-            top: 200px;
-    }
 
 
-    .service {
-            width: 117px;
-            height: 117px;
-    }
+@media screen and (max-width: 768px) {
+
+        .banner {
+                height: auto;
+                width: 100%;
+        }
+
+        .header {
+                height: 53px;
+                border-radius: 0 0 29px 29px;
+        }
+
+        .logo {
+                height: 38px;
+        }
+
+        .logohaya {
+                width: 68px;
+        }
+
+        .calculateprice {
+                width: 100%;
+                height: 65px;
+        }
+
+        .mainheading {
+                top: 117px;
+
+                font-size: 22px;
+        }
+
+
+        .widgetmain {
+                top: 190px;
+                margin-bottom: 108px;
+        }
+
+        .widgetbox {
+                font-size: 9px;
+                height: 29px;
+                border-radius: 20px 20px 0 0;
+        }
+
+        .bookingwidget {
+                grid-template-columns: auto auto;
+                border-radius: 15px;
+        }
+
+
+        .selectbox {
+                min-width: 155px;
+        }
+
+        .moreplans {
+                padding-top: 22px;
+        }
+
+        .bodysection {
+                padding-top: 107px;
+        }
+
+
+        .orangebox {
+                left: 98px;
+                top: 222px;
+        }
+
+        .about {
+                height: auto;
+                flex-direction: column;
+                padding-bottom: 28px;
+        }
+
+        .abouttext {
+                text-align: center;
+                height: auto;
+                max-width: 100%;
+        }
+
+        .aboutheading {
+                text-align: center;
+        }
+
+        .aboutimage {
+                width: 100%;
+                height: 366px;
+        }
+
+
+
+        .abouthaya {
+                font-size: 17px;
+        }
+
+        .plansbox {
+                width: 100%;
+                height: 287px;
+        }
+
+
+
+        .box {
+                justify-content: space-evenly;
+                gap: 26px
+        }
+
+
+        .familyhealth {
+                flex-direction: column;
+        }
+
+        .blackk {
+                font-size: 36px;
+        }
+
+        .healthheading {
+                font-size: 20px;
+        }
+
+        .healthtext {
+                max-width: 100%;
+                text-align: center;
+                align-items: center;
+        }
+
+        .readmore {
+                margin-bottom: 10px;
+        }
+
+        .featuresbox {
+                width: 100%;
+        }
+
+
+
+        .awardbox {
+                width: 100%;
+        }
+
+        .feedbackbox {
+                width: 100%;
+        }
+
+        .feedbacktext {
+                padding: 0px 12px;
+
+        }
+
+        .footermain {
+                grid-template-columns: auto auto;
+                gap: 21px;
+        }
+
+
+
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px) {
 
-    
-
-    .mainheading {
-             top: 123px;
-             font-size: 18px;}
-
-     .orangebox {
-              left: 84px;
-              top: 175px;
-    }
-
-    .feedbackname{
-               left:88px;
-               border-radius:0 0 42px 0;
-    }
+        .orangebox {
+                left: 93px;
+                top: 200px;
+        }
 
 
-   
-    .box{
-         padding-left: 10px;
-    }
+        .service {
+                width: 117px;
+                height: 117px;
+        }
 }
 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px) {
 
 
-    
-    .widgetbox{
-            font-size: 7px;
-    }
 
-    
-    .abouthaya{
-            font-size: 15px;
-    }
+        .mainheading {
+                top: 123px;
+                font-size: 18px;
+        }
 
-    .orangebox{
-            left:78px;
-            top:154px;
-    }
+        .orangebox {
+                left: 84px;
+                top: 175px;
+        }
 
-   
-
-    .bodycontent{
-        padding-bottom: 50px;
-    }
+        .feedbackname {
+                left: 88px;
+                border-radius: 0 0 42px 0;
+        }
 
 
-   .ficonmain {
-    gap: 10px;
-   }
-    
+
+        .box {
+                padding-left: 10px;
+        }
 }
 
 
-@media screen and (max-width: 500px){
-
-
-    .logohaya{
-            width: 50px;
-    }       
-
-    .mainheading {
-            top: 92px;
-            }
+@media screen and (max-width: 550px) {
 
 
 
-    .widgetmain{
-            top:139px;
-    }
-
-    .widgetbox{
-        height: 36px;
-        border-radius: 14px 14px 0 0;
-        width: 45%;
-        padding-top: 9px;
-}
+        .widgetbox {
+                font-size: 7px;
+        }
 
 
-    
-.bold {
-        font-size: 14px;
-}
+        .abouthaya {
+                font-size: 15px;
+        }
 
-    .orangebox {
-            top: 125px;
-    }
+        .orangebox {
+                left: 78px;
+                top: 154px;
+        }
 
-    .box {
-            gap: 16px;
-            padding-left: 0%;
 
-    }
 
-    .service {
-            width: 97px;
-            height: 95px;
-    }
+        .bodycontent {
+                padding-bottom: 50px;
+        }
 
-    
 
-  
-
+        .ficonmain {
+                gap: 10px;
+        }
 
 }
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px) {
 
 
-   .mainheading {
+        .logohaya {
+                width: 50px;
+        }
+
+        .mainheading {
+                top: 92px;
+        }
+
+
+
+        .widgetmain {
+                top: 139px;
+        }
+
+        .widgetbox {
+                height: 36px;
+                border-radius: 14px 14px 0 0;
+                width: 45%;
+                padding-top: 9px;
+        }
+
+
+
+        .bold {
+                font-size: 14px;
+        }
+
+        .orangebox {
+                top: 125px;
+        }
+
+        .box {
+                gap: 16px;
+                padding-left: 0%;
+
+        }
+
+        .service {
+                width: 97px;
+                height: 95px;
+        }
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+
+        .mainheading {
                 font-size: 16px;
         }
-    .widgetmain{
-            top:144px;
-    }
 
-    .widgetbox{
-            height: 25px;
-            border-radius: 14px 14px 0 0;
-            padding-top: 12px;
-    }
+        .widgetmain {
+                top: 144px;
+        }
 
-    .bodysection{
-            padding: 60px 8% 20px 8%;
-    }
+        .widgetbox {
+                height: 25px;
+                border-radius: 14px 14px 0 0;
+                padding-top: 12px;
+        }
 
-    .aboutimage{
-            height: 288px;
-    }
+        .bodysection {
+                padding: 60px 8% 20px 8%;
+        }
 
-    .about{
-            padding-bottom: 0%;
-    }
+        .aboutimage {
+                height: 288px;
+        }
 
-    .imagebox{
-            height: auto;
-    }
-    
-    .orangebox {
-            left: 71px;
-            top: 94px;
-    }
+        .about {
+                padding-bottom: 0%;
+        }
+
+        .imagebox {
+                height: auto;
+        }
+
+        .orangebox {
+                left: 71px;
+                top: 94px;
+        }
 
 
-    .feedbackname{
-            width: 42%;
-            left: 72px;
-    }
+        .feedbackname {
+                width: 42%;
+                left: 72px;
+        }
 
-    .footer{
-            height: auto;
-    }
+        .footer {
+                height: auto;
+        }
 
-    .footerlogo{
-            margin-left: 116px;
-    }
+        .footerlogo {
+                margin-left: 116px;
+        }
 
-    .footermain{
-           
-            text-align: center;
-            grid-template-columns: auto;
+        .footermain {
 
-    }
+                text-align: center;
+                grid-template-columns: auto;
 
-    .ficonmain{
-            gap:10px;
-           margin: 10px 0 0 112px;
-    }
+        }
+
+        .ficonmain {
+                gap: 10px;
+                margin: 10px 0 0 112px;
+        }
 }
 
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 
 
 
-    .menunavigation {
-             right: -500px;
-             }
+        .menunavigation {
+                right: -500px;
+        }
 
 
-   .getinsurancee {
-             width: 47%;
-             }
+        .getinsurancee {
+                width: 47%;
+        }
 
-      .mainheading {
+        .mainheading {
                 text-align: center;
                 font-size: 15px;
-            }
+        }
 
 
-    .widgetmain{
-            top:130px;
-    }
+        .widgetmain {
+                top: 130px;
+        }
 
-    .widgetbox {
+        .widgetbox {
                 width: 66%;
                 padding: 9px;
                 border-radius: 16px 14px 0 0;
@@ -579,149 +602,149 @@
                 margin-left: 58px;
                 height: auto;
 
-    }
+        }
 
-    .bookingwidget{
-            grid-template-columns: auto;
-            row-gap: 19px;
-    }
+        .bookingwidget {
+                grid-template-columns: auto;
+                row-gap: 19px;
+        }
 
-    .selectbox {
-            min-width: 247px;
-    }
+        .selectbox {
+                min-width: 247px;
+        }
 
-    .calculateprice{
-            height: 51px;
-            font-size: 14px;
-            border-radius: 10px;
-    }
+        .calculateprice {
+                height: 51px;
+                font-size: 14px;
+                border-radius: 10px;
+        }
 
-    .bodysection {
-        padding: 60px 8% 50px 8%;
-    }
+        .bodysection {
+                padding: 60px 8% 50px 8%;
+        }
 
-    .moreplans{
-            font-size: 14px;
-    }
-
-
-    .about {
-        padding-bottom: 12%;
-    }
-    
-    .aboutimage {
-            height: auto;
-    }
+        .moreplans {
+                font-size: 14px;
+        }
 
 
-    .orangebox {
-            left: 62px;
-            top: 66px;
-    }
+        .about {
+                padding-bottom: 12%;
+        }
 
-    .plansboxmain{
-            flex-direction: column;
-    }
-
-    .plansbox{
-            height: 198px;
-    }
+        .aboutimage {
+                height: auto;
+        }
 
 
-    .box{
-            flex-direction: column;
-            height: 765px;
-            justify-content: space-evenly;
-    }
+        .orangebox {
+                left: 62px;
+                top: 66px;
+        }
 
-    .mainbox {
-        align-items: center;
-        width: 45%;
-        text-align: center;
-    }
+        .plansboxmain {
+                flex-direction: column;
+        }
 
-    .service{
-            width: 95px;
-    }
-
-   .bodycontent{
-            row-gap: 27px;
-   }
-
-    .featuresmain{
-            flex-direction: column;
-    }
-
-    .featuresbox{
-            height: 236px;
-    }
-
-    .featuresimg{
-            height: 189px;
-    }
-
-    .award{
-            padding-bottom: 0px;
-    }
-
-    .awardmain{
-            flex-direction: column;
-    }
-
-    .awardimg {
-            height: 241px;
-    }
-
-    .abouthaya {
-        font-size: 15px;
-    }
+        .plansbox {
+                height: 198px;
+        }
 
 
-    .healthheading {
-            font-size: 19px;
-    }
+        .box {
+                flex-direction: column;
+                height: 765px;
+                justify-content: space-evenly;
+        }
+
+        .mainbox {
+                align-items: center;
+                width: 45%;
+                text-align: center;
+        }
+
+        .service {
+                width: 95px;
+        }
+
+        .bodycontent {
+                row-gap: 27px;
+        }
+
+        .featuresmain {
+                flex-direction: column;
+        }
+
+        .featuresbox {
+                height: 236px;
+        }
+
+        .featuresimg {
+                height: 189px;
+        }
+
+        .award {
+                padding-bottom: 0px;
+        }
+
+        .awardmain {
+                flex-direction: column;
+        }
+
+        .awardimg {
+                height: 241px;
+        }
+
+        .abouthaya {
+                font-size: 15px;
+        }
 
 
-    .abouthealth {
-        font-size: 15px;
-    }
-
-    .personfeedback {
-            display: flex;
-            padding: 0px 10px;
-            text-align: left;
-            flex-wrap: wrap;
-            align-items: center;
-            flex-direction: column;
-    }
+        .healthheading {
+                font-size: 19px;
+        }
 
 
+        .abouthealth {
+                font-size: 15px;
+        }
+
+        .personfeedback {
+                display: flex;
+                padding: 0px 10px;
+                text-align: left;
+                flex-wrap: wrap;
+                align-items: center;
+                flex-direction: column;
+        }
 
 
-    .feedbackname{
-            border-radius: 10px;
-            right: -1px;
-            top: -13px;
-    }
 
-    .feedbacktext{
-            width: 82%;
-            text-align: center;
-            padding: 0px 22px;
-    }
 
-    .star{
-            margin-right:  43px;
-    }
+        .feedbackname {
+                border-radius: 10px;
+                right: -1px;
+                top: -13px;
+        }
 
-    .footerlogo{
-            margin-left: 104px;
-    }
+        .feedbacktext {
+                width: 82%;
+                text-align: center;
+                padding: 0px 22px;
+        }
+
+        .star {
+                margin-right: 43px;
+        }
+
+        .footerlogo {
+                margin-left: 104px;
+        }
 
 }
 
 
-@media screen and (max-width: 368px){
+@media screen and (max-width: 368px) {
         .mainheading {
                 font-size: 13px;
         }
@@ -736,7 +759,7 @@
                 margin: 10px 0 0 102px;
         }
 
-        
+
 
 
 
