@@ -6,10 +6,7 @@
             font-size: 35px;
     }
 
-    .heading{
-            top:401px;
-            font-size: 25px;
-    }
+    
 
     .widgetmain{top:530px}
 
@@ -19,6 +16,11 @@
 
     .orangebox{
             bottom: 36px;
+    }
+
+
+    .bestplans {
+        margin-top: 0px;
     }
 
 
@@ -67,11 +69,6 @@
             font-size: 32px;
     }
 
-    
-    .heading {
-            top: 322px;
-            font-size: 28px;
-    }
 
     
     .widgetmain{
@@ -106,10 +103,20 @@
         padding-top: 10px;
     }
 
-    .orangebox{
-            left: 72px;
-            bottom: 94px;
+    .aboutimage {
+        height: 336px;
+    }
+
+    
+
+    .orangebox {
+        left: 72px;
+        bottom: 32px;
     } 
+
+    .bestplans {
+        margin-top: 0px;
+    }
 
 
     .feedbackname{
@@ -124,6 +131,8 @@
 }
 
 
+
+
 @media  screen and (max-width:900px){
 
     .mainheading{
@@ -131,10 +140,6 @@
             font-size: 30px;
     }
 
-    
-    .heading{
-            top:299px;
-    }
 
     .widgetmain{top: 375px;}
 
@@ -152,11 +157,18 @@
         height: 783px;
     }
 
-    .orangebox{
-            left:68px;
-            bottom:140px
+    /* .aboutimage {
+        height:0px;
+    } */
+
+    
+
+    .orangebox {
+        left: 68px;
+        bottom: 47px;
             
     }
+
 
     .aboutp{
             display: none;} 
@@ -178,6 +190,18 @@
         
         .orangebox {
                 bottom: 170px;
+        }
+
+       
+
+        .aboutimage {
+                height: 384px;
+
+        }
+
+        .orangebox {
+                left: 68px;
+                bottom: 100px;
         }
 
 
@@ -217,10 +241,6 @@
             
             font-size: 22px;}
 
-            
-    .heading {
-            font-size: 18px;
-            top: 194px;}
 
     .widgetmain{
             top: 190px;
@@ -243,6 +263,8 @@
         padding-top: 107px;
     }
 
+    
+
 
     .orangebox{
             left: 98px;
@@ -263,7 +285,8 @@
             text-align: center;}
 
     .aboutimage{
-            width: 100%;}
+            width: 100%;
+            height: 366px;}
 
 
     
@@ -338,6 +361,7 @@
             top: 200px;
     }
 
+
     .service {
             width: 117px;
             height: 117px;
@@ -352,11 +376,6 @@
     .mainheading {
              top: 123px;
              font-size: 18px;}
-
-    .heading {
-              font-size: 17px;
-              top: 190px;
-            }
 
      .orangebox {
               left: 84px;
@@ -379,11 +398,6 @@
 @media screen and (max-width: 550px){
 
 
-    .mainheading {
-            font-size: 17px;}
-
-    .heading {
-            font-size: 15px;}
     
     .widgetbox{
             font-size: 7px;
@@ -428,10 +442,6 @@
             }
 
 
-    .heading {
-             top: 151px;
-     }
-
 
     .widgetmain{
             top:139px;
@@ -464,6 +474,10 @@
 
 @media screen and (max-width: 450px){
 
+
+   .mainheading {
+                font-size: 16px;
+        }
     .widgetmain{
             top:144px;
     }
@@ -537,15 +551,11 @@
              width: 47%;
              }
 
-    .mainheading {
-            font-size: 15px;
-            top: 77px;
+      .mainheading {
+                text-align: center;
+                font-size: 15px;
             }
 
-    .heading{
-            font-size: 12px;
-             top: 132px;
-    }
 
     .widgetmain{
             top:130px;
@@ -555,7 +565,9 @@
             width: 66%;
             padding-top: 8px;
             border-radius: 16px 14px 0 0;
-            font-size: 5px;
+            font-size: 5px;       
+            margin-left: 58px;
+
     }
 
     .bookingwidget{
@@ -573,8 +585,17 @@
             border-radius: 10px;
     }
 
+    .bodysection {
+        padding: 60px 8% 50px 8%;
+    }
+
     .moreplans{
             font-size: 14px;
+    }
+
+
+    .about {
+        padding-bottom: 12%;
     }
     
     .aboutimage {
@@ -639,8 +660,8 @@
             height: 241px;
     }
 
-    .abouthaya{
-            font-size: 12px;
+    .abouthaya {
+        font-size: 15px;
     }
 
 
@@ -649,8 +670,8 @@
     }
 
 
-    .abouthealth{
-            font-size: 17px;
+    .abouthealth {
+        font-size: 15px;
     }
 
     .personfeedback {

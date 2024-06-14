@@ -28,12 +28,16 @@
 
 .abouttext {
   row-gap: 20px;
-  height: 400px;
   max-width: 50%;
   display: flex;
   flex-direction: column;
   ;
 }
+
+.abouthaya{
+  font-size: 16px;
+}
+
 
 .readmore {
   width: 123px;
@@ -47,9 +51,9 @@
 }
 
 .aboutimage {
-  height: 400px;
   width: 50%;
   position: relative;
+  height: 408px;
 }
 
 .greenbox {
@@ -88,6 +92,7 @@
 
 .bestplans {
   height: auto;
+  margin-top: 46px;
 
 }
 
@@ -204,7 +209,7 @@
 }
 
 .abouthealth {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 
