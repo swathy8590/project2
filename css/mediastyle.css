@@ -258,7 +258,6 @@
 
         .widgetbox {
                 font-size: 9px;
-                height: 29px;
                 border-radius: 20px 20px 0 0;
         }
 
@@ -469,10 +468,9 @@
         }
 
         .widgetbox {
-                height: 36px;
                 border-radius: 14px 14px 0 0;
                 width: 45%;
-                padding-top: 9px;
+                padding: 10px;
         }
 
 
@@ -527,6 +525,14 @@
                 border-radius: 14px 14px 0 0;
                 padding-top: 12px;
         }
+
+        .bookingwidget {
+                padding: 40px 10px 40px 0px;
+        }
+
+    .selectbox {
+        min-width: 149px;
+    }
 
         .bodysection {
                 padding: 60px 8% 20px 8%;
