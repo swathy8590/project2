@@ -485,6 +485,13 @@
                 top: 125px;
         }
 
+       .aboutimage{
+        height: 295px;
+       }
+
+
+        
+
         .box {
                 gap: 16px;
                 padding-left: 0%;
@@ -599,7 +606,7 @@
                 padding: 9px;
                 border-radius: 16px 14px 0 0;
                 font-size: 35px;
-                margin-left: 58px;
+                margin-left: 50px;
                 height: auto;
 
         }
@@ -634,6 +641,7 @@
 
         .aboutimage {
                 height: auto;
+                
         }
 
 
