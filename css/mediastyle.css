@@ -715,6 +715,16 @@
                 font-size: 13px;
         }
 
+        .orangebox {
+                top: 55px;
+        }
+
+
+        .ficonmain {
+                gap: 13px;
+                margin: 10px 0 0 102px;
+        }
+
 
 
 }
