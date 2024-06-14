@@ -6,10 +6,7 @@
             font-size: 35px;
     }
 
-    .heading{
-            top:401px;
-            font-size: 25px;
-    }
+    
 
     .widgetmain{top:530px}
 
@@ -22,6 +19,11 @@
     }
 
 
+    .bestplans {
+        margin-top: 0px;
+    }
+
+
 }
 
 
@@ -29,6 +31,10 @@
 
 .orangebox{
             bottom: 58px;
+    }
+
+    .bodysection{
+        padding-top: 96px ;
     }
 
 
@@ -52,8 +58,8 @@
             display: block;
     }
 
-    .menunavigation{
-            right: -1000px;
+    .menunavigation {
+            right: -1900px;
             display: block;
     }
 
@@ -63,11 +69,6 @@
             font-size: 32px;
     }
 
-    
-    .heading {
-            top: 322px;
-            font-size: 28px;
-    }
 
     
     .widgetmain{
@@ -75,6 +76,7 @@
 
     .widgetbox{
             font-size: 12px;
+            margin-left: 36px;
     }
 
     .selectbox{
@@ -97,14 +99,24 @@
             height: 61px;
     }
 
-    .bodysection{
-            padding-top: 58px;
+    .bodysection {
+        padding-top: 10px;
     }
 
-    .orangebox{
-            left: 72px;
-            bottom: 96px;
+    .aboutimage {
+        height: 336px;
+    }
+
+    
+
+    .orangebox {
+        left: 72px;
+        bottom: 32px;
     } 
+
+    .bestplans {
+        margin-top: 0px;
+    }
 
 
     .feedbackname{
@@ -112,7 +124,13 @@
             left: 80px;
     }
 
+    .imageh {
+        min-height: 86%;
+    }
+
 }
+
+
 
 
 @media  screen and (max-width:900px){
@@ -122,10 +140,6 @@
             font-size: 30px;
     }
 
-    
-    .heading{
-            top:299px;
-    }
 
     .widgetmain{top: 375px;}
 
@@ -138,11 +152,23 @@
             min-width: 95px;
     }
 
-    .orangebox{
-            left:68px;
-            bottom:140px
+
+    .banner {
+        height: 783px;
+    }
+
+    /* .aboutimage {
+        height:0px;
+    } */
+
+    
+
+    .orangebox {
+        left: 68px;
+        bottom: 47px;
             
     }
+
 
     .aboutp{
             display: none;} 
@@ -150,9 +176,38 @@
     .box{
         gap:67px}
 
+
+        .imageh {
+                border-radius: 16px;
+                min-height: 69%;
+        }
+
   
 }
 
+
+@media screen and (max-width: 800px){
+        
+        .orangebox {
+                bottom: 170px;
+        }
+
+       
+
+        .aboutimage {
+                height: 384px;
+
+        }
+
+        .orangebox {
+                left: 68px;
+                bottom: 100px;
+        }
+
+
+        
+
+}
 
 
 
@@ -186,10 +241,6 @@
             
             font-size: 22px;}
 
-            
-    .heading {
-            font-size: 18px;
-            top: 194px;}
 
     .widgetmain{
             top: 190px;
@@ -207,6 +258,12 @@
     .selectbox {
              min-width: 155px;
     }
+
+    .bodysection {
+        padding-top: 107px;
+    }
+
+    
 
 
     .orangebox{
@@ -228,7 +285,8 @@
             text-align: center;}
 
     .aboutimage{
-            width: 100%;}
+            width: 100%;
+            height: 366px;}
 
 
     
@@ -303,6 +361,7 @@
             top: 200px;
     }
 
+
     .service {
             width: 117px;
             height: 117px;
@@ -317,11 +376,6 @@
     .mainheading {
              top: 123px;
              font-size: 18px;}
-
-    .heading {
-              font-size: 17px;
-              top: 190px;
-            }
 
      .orangebox {
               left: 84px;
@@ -344,11 +398,6 @@
 @media screen and (max-width: 550px){
 
 
-    .mainheading {
-            font-size: 17px;}
-
-    .heading {
-            font-size: 15px;}
     
     .widgetbox{
             font-size: 7px;
@@ -393,10 +442,6 @@
             }
 
 
-    .heading {
-             top: 151px;
-     }
-
 
     .widgetmain{
             top:139px;
@@ -429,12 +474,18 @@
 
 @media screen and (max-width: 450px){
 
+
+   .mainheading {
+                font-size: 16px;
+        }
     .widgetmain{
             top:144px;
     }
 
     .widgetbox{
-            height: 18px;
+            height: 25px;
+            border-radius: 14px 14px 0 0;
+            padding-top: 12px;
     }
 
     .bodysection{
@@ -500,13 +551,11 @@
              width: 47%;
              }
 
-    .mainheading {
-            font-size: 15px;
+      .mainheading {
+                text-align: center;
+                font-size: 15px;
             }
 
-    .heading{
-            font-size: 12px;
-    }
 
     .widgetmain{
             top:130px;
@@ -515,8 +564,10 @@
     .widgetbox{
             width: 66%;
             padding-top: 8px;
-            border-radius: 11px 11px 0 0;
-            font-size: 5px;
+            border-radius: 16px 14px 0 0;
+            font-size: 5px;       
+            margin-left: 58px;
+
     }
 
     .bookingwidget{
@@ -534,8 +585,17 @@
             border-radius: 10px;
     }
 
+    .bodysection {
+        padding: 60px 8% 50px 8%;
+    }
+
     .moreplans{
             font-size: 14px;
+    }
+
+
+    .about {
+        padding-bottom: 12%;
     }
     
     .aboutimage {
@@ -600,8 +660,8 @@
             height: 241px;
     }
 
-    .abouthaya{
-            font-size: 12px;
+    .abouthaya {
+        font-size: 15px;
     }
 
 
@@ -610,8 +670,8 @@
     }
 
 
-    .abouthealth{
-            font-size: 17px;
+    .abouthealth {
+        font-size: 15px;
     }
 
     .personfeedback {

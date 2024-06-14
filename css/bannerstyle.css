@@ -221,18 +221,13 @@
     position: absolute;
     top: 335px;
     left:4%;
-    text-shadow: -1px 3px 4px #000000; 
+    text-shadow: -1px 3px 3px #000000; 
 }
 
 
 
 .heading {
-    color: #ffffff;
-    font-size: 36px;
-    position: absolute;
-    top: 485px;
-    left: 4%;
-    text-shadow:-1px 3px 3px #000000;
+    font-family: "poppins";
 }
 
 

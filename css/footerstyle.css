@@ -26,12 +26,13 @@ padding: 0 8% 0 8%;}
 .footertext {
     width: 90%;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 27px;
 }
 
 .ficonmain {
     display: flex;
+    margin-top: 5px;
 }
 
 .footericon {
@@ -65,13 +66,15 @@ padding: 0 8% 0 8%;}
     color: #ffffff;
 }
 
+
 .copyright {
+    color: #ffffff;
     height: 24px;
     padding-top: 10px;
     text-align: center;
     background: #a3572b;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 

@@ -164,7 +164,6 @@ position: absolute;
 
 
 .moreplann {
-  border-radius: 10px;
   display: none;
     padding: 40px;
     z-index: 997;
@@ -176,19 +175,7 @@ position: absolute;
     box-sizing: border-box;
 }
 
-/* .productsmain{
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 20% auto auto;
-}
 
-
-.products {
-  padding:10px;
-  border: 1px solid;
-  height: 300px; */
-
-/* } */
 
 .productoption{
   gap: 10px;
@@ -215,6 +202,11 @@ position: absolute;
   margin-top:10px
 }
 
-.moreplanhead
-{margin-bottom: 20px;
+.moreplanhead{
+  margin-bottom: 20px;
   text-align: center;}
+
+
+  .bookingtoggle{
+    border-radius: 40px 40px 0px 0px;
+  }
