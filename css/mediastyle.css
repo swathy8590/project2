@@ -561,12 +561,13 @@
             top:130px;
     }
 
-    .widgetbox{
-            width: 66%;
-            padding-top: 8px;
-            border-radius: 16px 14px 0 0;
-            font-size: 5px;       
-            margin-left: 58px;
+    .widgetbox {
+        width: 66%;
+        padding-top: 9px;
+        border-radius: 16px 14px 0 0;
+        font-size: 35px;
+        margin-left: 58px;
+        height: 21px;
 
     }
 
@@ -705,5 +706,25 @@
     .footerlogo{
             margin-left: 104px;
     }
+
+}
+
+
+@media screen and (max-width: 368px){
+        .mainheading {
+                font-size: 13px;
+        }
+
+        .orangebox {
+                top: 55px;
+        }
+
+
+        .ficonmain {
+                gap: 13px;
+                margin: 10px 0 0 102px;
+        }
+
+
 
 }

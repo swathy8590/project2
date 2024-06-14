@@ -110,7 +110,7 @@
 }
 
 .menunavigation{
-    padding: 10px 0 0 10%;
+    padding: 7% 0 0 7%;
    display: none;
     z-index: 999;
     width: 83%;
@@ -151,9 +151,7 @@
     width: 53%;
 }
 
-.navigationn {
-    margin-left: 50px;
-}
+
 
 .logonav{
     width: 62px;
