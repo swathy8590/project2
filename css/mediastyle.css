@@ -31,6 +31,10 @@
             bottom: 58px;
     }
 
+    .bodysection{
+        padding-top: 96px ;
+    }
+
 
 }
 
@@ -52,8 +56,8 @@
             display: block;
     }
 
-    .menunavigation{
-            right: -1000px;
+    .menunavigation {
+            right: -1900px;
             display: block;
     }
 
@@ -75,6 +79,7 @@
 
     .widgetbox{
             font-size: 12px;
+            margin-left: 36px;
     }
 
     .selectbox{
@@ -97,19 +102,23 @@
             height: 61px;
     }
 
-    .bodysection{
-            padding-top: 58px;
+    .bodysection {
+        padding-top: 10px;
     }
 
     .orangebox{
             left: 72px;
-            bottom: 96px;
+            bottom: 94px;
     } 
 
 
     .feedbackname{
             width: 35%;
             left: 80px;
+    }
+
+    .imageh {
+        min-height: 86%;
     }
 
 }
@@ -138,6 +147,11 @@
             min-width: 95px;
     }
 
+
+    .banner {
+        height: 783px;
+    }
+
     .orangebox{
             left:68px;
             bottom:140px
@@ -150,9 +164,26 @@
     .box{
         gap:67px}
 
+
+        .imageh {
+                border-radius: 16px;
+                min-height: 69%;
+        }
+
   
 }
 
+
+@media screen and (max-width: 800px){
+        
+        .orangebox {
+                bottom: 170px;
+        }
+
+
+        
+
+}
 
 
 
@@ -206,6 +237,10 @@
 
     .selectbox {
              min-width: 155px;
+    }
+
+    .bodysection {
+        padding-top: 107px;
     }
 
 
@@ -434,7 +469,9 @@
     }
 
     .widgetbox{
-            height: 18px;
+            height: 25px;
+            border-radius: 14px 14px 0 0;
+            padding-top: 12px;
     }
 
     .bodysection{
@@ -502,10 +539,12 @@
 
     .mainheading {
             font-size: 15px;
+            top: 77px;
             }
 
     .heading{
             font-size: 12px;
+             top: 132px;
     }
 
     .widgetmain{
@@ -515,7 +554,7 @@
     .widgetbox{
             width: 66%;
             padding-top: 8px;
-            border-radius: 11px 11px 0 0;
+            border-radius: 16px 14px 0 0;
             font-size: 5px;
     }
 

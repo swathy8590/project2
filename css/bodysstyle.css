@@ -208,14 +208,19 @@
 }
 
 
+.healthimagee {
+  flex-grow: 1;
+
+  
+}
+
 
 .healthimage {
-  flex-grow: 1;
-  border-radius: 23px;
   overflow: hidden;
 }
 
 .imageh {
+  border-radius: 23px;
   min-height: 100%;
   max-width: 100%;
   min-width: 100%;
