@@ -1,11 +1,11 @@
+/* media -1300px start */
+
 @media screen and (max-width:1300px) {
 
         .mainheading {
                 top: 262px;
                 font-size: 35px;
         }
-
-
 
         .widgetmain {
                 top: 530px
@@ -19,14 +19,15 @@
                 bottom: 36px;
         }
 
-
         .bestplans {
                 margin-top: 0px;
         }
-
-
 }
 
+/* media -1300px end */
+
+
+/* media -1250px start */
 
 @media screen and (max-width:1250px) {
 
@@ -38,8 +39,11 @@
                 padding-top: 96px;
         }
 
-
 }
+
+/* media -1250px end */
+
+/* media -1800px start */
 
 @media screen and (max-width:1080px) {
 
@@ -64,13 +68,10 @@
                 display: block;
         }
 
-
         .mainheading {
                 top: 213px;
                 font-size: 32px;
         }
-
-
 
         .widgetmain {
                 top: 437px;
@@ -98,8 +99,8 @@
         }
 
         .calculateprice {
-                width: 77%;
-                height: 61px;
+                width: 89%;
+                height: 58px;
         }
 
         .bodysection {
@@ -110,8 +111,6 @@
                 height: 336px;
         }
 
-
-
         .orangebox {
                 left: 72px;
                 bottom: 32px;
@@ -121,7 +120,6 @@
                 margin-top: 0px;
         }
 
-
         .feedbackname {
                 width: 35%;
                 left: 80px;
@@ -130,11 +128,11 @@
         .imageh {
                 min-height: 86%;
         }
-
 }
 
+/* media -1800px end */
 
-
+/* media -900px start */
 
 @media screen and (max-width:900px) {
 
@@ -142,7 +140,6 @@
                 top: 196px;
                 font-size: 30px;
         }
-
 
         .widgetmain {
                 top: 375px;
@@ -152,28 +149,18 @@
                 border-radius: 18px;
         }
 
-
         .selectbox {
                 min-width: 95px;
         }
-
 
         .banner {
                 height: 783px;
         }
 
-        /* .aboutimage {
-        height:0px;
-    } */
-
-
-
         .orangebox {
                 left: 68px;
                 bottom: 47px;
-
         }
-
 
         .aboutp {
                 display: none;
@@ -183,14 +170,15 @@
                 gap: 67px
         }
 
-
         .imageh {
                 border-radius: 16px;
                 min-height: 69%;
         }
-
-
 }
+
+/* media -900px endpx */
+
+/* media -800px endpx */
 
 
 @media screen and (max-width: 800px) {
@@ -199,25 +187,19 @@
                 bottom: 170px;
         }
 
-
-
         .aboutimage {
                 height: 384px;
-
         }
 
         .orangebox {
                 left: 68px;
                 bottom: 100px;
         }
-
-
-
-
 }
 
+/* media -800px end */
 
-
+/* media -768px start */
 
 @media screen and (max-width: 768px) {
 
@@ -240,8 +222,8 @@
         }
 
         .calculateprice {
-                width: 100%;
-                height: 65px;
+                width: 234px;
+                height: 53px;
         }
 
         .mainheading {
@@ -249,7 +231,6 @@
 
                 font-size: 22px;
         }
-
 
         .widgetmain {
                 top: 190px;
@@ -266,19 +247,18 @@
                 border-radius: 15px;
         }
 
-
         .selectbox {
-                min-width: 155px;
+                min-width: 230px;
         }
 
         .moreplans {
-                padding-top: 22px;
+                font-size: 16px;
+                margin: 10px 0 0 31px;
         }
 
         .bodysection {
                 padding-top: 107px;
         }
-
 
         .orangebox {
                 left: 98px;
@@ -306,8 +286,6 @@
                 height: 366px;
         }
 
-
-
         .abouthaya {
                 font-size: 17px;
         }
@@ -317,13 +295,10 @@
                 height: 287px;
         }
 
-
-
         .box {
                 justify-content: space-evenly;
                 gap: 26px
         }
-
 
         .familyhealth {
                 flex-direction: column;
@@ -351,8 +326,6 @@
                 width: 100%;
         }
 
-
-
         .awardbox {
                 width: 100%;
         }
@@ -363,18 +336,17 @@
 
         .feedbacktext {
                 padding: 0px 12px;
-
         }
 
         .footermain {
                 grid-template-columns: auto auto;
                 gap: 21px;
         }
-
-
-
 }
 
+/* media -768px end */
+
+/* media -650px start */
 
 @media screen and (max-width: 650px) {
 
@@ -382,7 +354,6 @@
                 left: 93px;
                 top: 200px;
         }
-
 
         .service {
                 width: 117px;
@@ -393,7 +364,18 @@
 
 @media screen and (max-width: 600px) {
 
+        .calculateprice {
+                width: 215px;
+        }
 
+        .selectbox {
+                min-width: 211px;
+        }
+
+        .moreplans {
+                font-size: 14px;
+                margin: 10px 0 0 23px;
+        }
 
         .mainheading {
                 top: 123px;
@@ -410,13 +392,14 @@
                 border-radius: 0 0 42px 0;
         }
 
-
-
         .box {
                 padding-left: 10px;
         }
 }
 
+/* media -650px end */
+
+/* media -550px start */
 
 @media screen and (max-width: 550px) {
 
@@ -426,6 +409,19 @@
                 font-size: 7px;
         }
 
+        .calculateprice {
+                width: 180px;
+                font-size: 10px;
+        }
+
+        .selectbox {
+                min-width: 180px;
+        }
+
+        .moreplans {
+                font-size: 12px;
+                margin: 15px 0 0 23px;
+        }
 
         .abouthaya {
                 font-size: 15px;
@@ -436,162 +432,24 @@
                 top: 154px;
         }
 
-
-
         .bodycontent {
                 padding-bottom: 50px;
         }
 
-
         .ficonmain {
                 gap: 10px;
         }
-
 }
 
+/* media -550px end */
+
+/* media -500px start */
 
 @media screen and (max-width: 500px) {
-
-
-        .logohaya {
-                width: 50px;
-        }
-
-        .mainheading {
-                top: 92px;
-        }
-
-
-
-        .widgetmain {
-                top: 139px;
-        }
-
-        .widgetbox {
-                border-radius: 14px 14px 0 0;
-                width: 45%;
-                padding: 10px;
-        }
-
-
-
-        .bold {
-                font-size: 14px;
-        }
-
-        .orangebox {
-                top: 125px;
-        }
-
-       .aboutimage{
-        height: 295px;
-       }
-
-
-        
-
-        .box {
-                gap: 16px;
-                padding-left: 0%;
-
-        }
-
-        .service {
-                width: 97px;
-                height: 95px;
-        }
-
-
-
-
-
-
-}
-
-
-@media screen and (max-width: 450px) {
-
-
-        .mainheading {
-                font-size: 16px;
-        }
-
-        .widgetmain {
-                top: 144px;
-        }
-
-        .widgetbox {
-                height: 25px;
-                border-radius: 14px 14px 0 0;
-                padding-top: 12px;
-        }
-
-        .bookingwidget {
-                padding: 40px 10px 40px 0px;
-        }
-
-    .selectbox {
-        min-width: 149px;
-    }
-
-        .bodysection {
-                padding: 60px 8% 20px 8%;
-        }
-
-        .aboutimage {
-                height: 288px;
-        }
-
-        .about {
-                padding-bottom: 0%;
-        }
-
-        .imagebox {
-                height: auto;
-        }
-
-        .orangebox {
-                left: 71px;
-                top: 94px;
-        }
-
-
-        .feedbackname {
-                width: 42%;
-                left: 72px;
-        }
-
-        .footer {
-                height: auto;
-        }
-
-        .footerlogo {
-                margin-left: 116px;
-        }
-
-        .footermain {
-
-                text-align: center;
-                grid-template-columns: auto;
-
-        }
-
-        .ficonmain {
-                gap: 10px;
-                margin: 10px 0 0 112px;
-        }
-}
-
-
-
-@media screen and (max-width: 400px) {
-
-
 
         .menunavigation {
                 right: -500px;
         }
-
 
         .getinsurancee {
                 width: 47%;
@@ -602,19 +460,17 @@
                 font-size: 15px;
         }
 
-
         .widgetmain {
-                top: 130px;
+                top: 165px;
         }
 
         .widgetbox {
                 width: 66%;
                 padding: 9px;
                 border-radius: 16px 14px 0 0;
-                font-size: 35px;
-                margin-left: 50px;
+                font-size: 11px;
+                margin-left: 64px;
                 height: auto;
-
         }
 
         .bookingwidget {
@@ -627,19 +483,18 @@
         }
 
         .calculateprice {
-                height: 51px;
-                font-size: 14px;
-                border-radius: 10px;
+                width: 250px;
+                font-size: 10px;
         }
 
         .bodysection {
-                padding: 60px 8% 50px 8%;
+                padding: 95px 8% 50px 8%;
         }
 
         .moreplans {
-                font-size: 14px;
+                font-size: 12px;
+                margin: 15px 0 0 0px;
         }
-
 
         .about {
                 padding-bottom: 12%;
@@ -647,13 +502,16 @@
 
         .aboutimage {
                 height: auto;
-                
+
         }
 
-
         .orangebox {
-                left: 62px;
-                top: 66px;
+                left: 74px;
+                top: 115px;
+        }
+
+        .bestplans {
+                margin-top: 22px;
         }
 
         .plansboxmain {
@@ -663,7 +521,6 @@
         .plansbox {
                 height: 198px;
         }
-
 
         .box {
                 flex-direction: column;
@@ -678,7 +535,12 @@
         }
 
         .service {
+                height: 95px;
                 width: 95px;
+        }
+
+        .padding {
+                padding-left: 0px;
         }
 
         .bodycontent {
@@ -713,11 +575,9 @@
                 font-size: 15px;
         }
 
-
         .healthheading {
                 font-size: 19px;
         }
-
 
         .abouthealth {
                 font-size: 15px;
@@ -731,9 +591,6 @@
                 align-items: center;
                 flex-direction: column;
         }
-
-
-
 
         .feedbackname {
                 border-radius: 10px;
@@ -752,29 +609,77 @@
         }
 
         .footerlogo {
-                margin-left: 104px;
+                margin-left: 141px;
         }
 
+        .ficonmain {
+                justify-content: center;
+        }
+
+        .footertext {
+                width: 100%;
+        }
+
+        .footermain {
+                text-align: center;
+                grid-template-columns: auto;
+        }
 }
 
+/* media -500px end */
 
-@media screen and (max-width: 368px) {
+/* media -450px start */
+
+@media screen and (max-width: 450px) {
+        .orangebox {
+                left: 69px;
+                top: 93px;
+        }
+
+        .widgetbox {
+                font-size: 9px;
+                margin-left: 56px;
+        }
+}
+
+/* media -450px end */
+
+/* media -400px start */
+
+@media screen and (max-width: 400px) {
         .mainheading {
                 font-size: 13px;
         }
 
         .orangebox {
-                top: 55px;
+                top: 69px;
         }
 
-
-        .ficonmain {
-                gap: 13px;
-                margin: 10px 0 0 102px;
+        .footerlogo {
+                margin-left: 118px;
         }
 
+        /* media -400px end */
 
+        @media screen and (max-width:350px) {
+                .footerlogo {
+                        margin-left: 105px;
+                }
 
+                .orangebox {
+                        top: 46px;
+                        left: 63px;
+                }
 
+                .widgetbox {
+                        font-size: 7px;
+                        margin-left: 45px;
+                }
 
+                .widgetmain {
+                        top: 157px;
+                }
+        }
 }
+
+/* media -400px end */

@@ -1,82 +1,73 @@
 .widgetmain {
-    position: relative;
-    top: 591px;
-    padding: 0 7% 0 7%;
+  position: relative;
+  top: 591px;
+  padding: 0 7% 0 7%;
 }
 
 .widgetbox {
-    width: 42%;
-    background: #24366b;
-    margin-left: 24px;
-    border-radius: 40px 40px 0 0;
-    color: #ffffff;
-    text-align: center;
-    padding: 19px;
+  width: 42%;
+  background: #24366b;
+  margin-left: 24px;
+  border-radius: 40px 40px 0 0;
+  color: #ffffff;
+  text-align: center;
+  padding: 19px;
 }
 
 
-  .bookingwidget {
-    grid-template-columns: auto auto auto auto 280px;
-    background: var(--green);
-    border-radius: 40px;
-    display: grid;
-    align-content: center;
-    padding: 40px 10px 40px 10px;
-    justify-items: center;
+.bookingwidget {
+  grid-template-columns: auto auto auto auto auto;
+  background: var(--green);
+  border-radius: 28px;
+  display: grid;
+  align-content: center;
+  padding: 40px 10px 40px 10px;
+  justify-items: center;
 }
 
 
 .insurebox {
-    display: flex;
-    align-items: center;
-    font-size: 11px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
 }
 
-
-
-
-
-
-.custom-radio input 
-{
+.custom-radio input {
   display: none;
 }
 
-
-
-  .selectbox {
-    background: rgb(255, 255, 255);
-    margin: 10px;
-    min-width: 200px;
-    height: 50px;
-    border: 3px solid transparent;
-    display: inline-block;
-    border-radius: 10px;
-    position: relative;
-    text-align: center;
-    box-shadow: 0 0 20px #c3c3c367;
-    cursor: pointer;
+.selectbox {
+  background: rgb(255, 255, 255);
+  margin: 10px;
+  min-width: 200px;
+  height: 50px;
+  border: 3px solid transparent;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 20px #c3c3c367;
+  cursor: pointer;
 }
 
-.selectbox > i {
+.selectbox>i {
 
-    color: #ffffff;
-    background-color: #ff7e35;
-    font-size: 17px;
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%) scale(2);
-    border-radius: 50px;
-    padding: 7px;
-    transition: 0.5s;
-    pointer-events: none;
+  color: #ffffff;
+  background-color: #ff7e35;
+  font-size: 17px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) scale(2);
+  border-radius: 50px;
+  padding: 7px;
+  transition: 0.5s;
+  pointer-events: none;
   opacity: 0;
 }
 
-.selectbox .hobbies-icon 
-{
-position: absolute;
+.selectbox .hobbies-icon {
+  position: absolute;
   top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -84,30 +75,24 @@ position: absolute;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  
+
 }
+
 .selectbox .hobbies-icon img {
   margin-right: 7px;
   display: block;
   width: 36px;
   height: 27px;
-
-  
 }
 
-
-
-.custom-radio input:checked + .selectbox 
-{
- border: 2px solid #FFDAE9;
+.custom-radio input:checked+.selectbox {
+  border: 2px solid #FFDAE9;
 }
 
-.custom-radio input:checked + .selectbox > i 
-{
- opacity: 1;
- transform: translateX(-50%) scale(1);
+.custom-radio input:checked+.selectbox>i {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
 }
-
 
 .calculateprice {
   padding: 0 30px 0 30px;
@@ -118,65 +103,57 @@ position: absolute;
   color: #ffffff;
   position: relative;
   transition: .3s all;
-  position:relative;
+  position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-.calculateprice:active{
-  
-  font-size:13px;
+.calculateprice:active {
+
+  font-size: 13px;
   transition: .3s all;
 }
 
-.calculateprice:after{
+.calculateprice:after {
   content: "";
-  position:absolute;
-  width:80px;
-  background:linear-gradient(white, rgba(255, 255, 255, 0.174));
-  left:-80px;
-  top:-40px;
+  position: absolute;
+  width: 80px;
+  background: linear-gradient(white, rgba(255, 255, 255, 0.174));
+  left: -80px;
+  top: -40px;
   transition: .3s all;
-  z-index:0;
- 
+  z-index: 0;
+
   height: 121px;
   border-radius: 50px;
-  opacity:.3;
-
- 
+  opacity: .3;
 }
 
 
 .calculateprice:active:after {
-
-
- width:80px;
-
-  left:100%;
+  width: 80px;
+  left: 100%;
 }
 
 .moreplans {
   font-size: 12px;
   color: #ffffff;
   cursor: pointer;
-} 
-
+}
 
 .moreplann {
   display: none;
-    padding: 40px;
-    z-index: 997;
-    bottom: 23px;
-    position: relative;
-    width: 100%;
-    background:#217264;
-    color: #ffffff;
-    box-sizing: border-box;
+  padding: 40px;
+  z-index: 997;
+  bottom: 23px;
+  position: relative;
+  width: 100%;
+  background: #217264;
+  color: #ffffff;
+  box-sizing: border-box;
 }
 
-
-
-.productoption{
+.productoption {
   gap: 10px;
   display: flex;
   cursor: pointer;
@@ -188,24 +165,21 @@ position: absolute;
   border: 1px solid #ff7e35;
   border-radius: 10px;
   align-items: center;
-  
-
 }
 
-.motoroption{
+.motoroption {
   margin-left: 15px;
 }
 
-
-.motoroption li{
-  margin-top:10px
+.motoroption li {
+  margin-top: 10px
 }
 
-.moreplanhead{
+.moreplanhead {
   margin-bottom: 20px;
-  text-align: center;}
+  text-align: center;
+}
 
-
-  .bookingtoggle{
-    border-radius: 40px 40px 0px 0px;
-  }
+.bookingtoggle {
+  border-radius: 40px 40px 0px 0px;
+}

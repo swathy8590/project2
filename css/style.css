@@ -3,12 +3,9 @@
         padding: 0;
 }
 
-
-
 :root {
         --green: #217264;
         --orange: #FF7E35;
-        
 }
 
 @font-face {
@@ -35,8 +32,7 @@
 
 @font-face {
         font-family: "poppins";
-        src: url("../fonts/Poppins-ThinItalic.ttf") ;
-
+        src: url("../fonts/Poppins-ThinItalic.ttf");
 }
 
 body {
@@ -52,7 +48,6 @@ body {
 .blackk {
         font-family: "robotoblack";
         font-size: 39px;
-
 }
 
 .bold {
@@ -62,5 +57,3 @@ body {
 .medium {
         font-family: "robotomedium";
 }
-
-
