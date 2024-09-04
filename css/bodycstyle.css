@@ -1,7 +1,4 @@
 
-
-
-
 .bodycontent {
     height: auto;
     padding: 0 8% 140px 8%;
@@ -19,10 +16,7 @@
 
 .featuresheading {
     text-align: center;
-
-
 }
-
 
 .featuresmain {
     display: flex;
@@ -42,8 +36,6 @@
     min-width: 100%;
 }
 
-
-
 .featurestext {
     text-align: center;
     margin: 10px;
@@ -54,11 +46,7 @@
     color: #000000;
 }
 
-
-
-
-/* award */
-
+/* award start */
 
 .award {
     row-gap: 40px;
@@ -101,7 +89,7 @@
 
 /* award end */
 
-/* feedback */
+/* feedback start */
 
 .feedback {
     row-gap: 40px;
@@ -118,7 +106,7 @@
     height: auto;
     display: flex;
     gap: 2%;
-  
+ 
 }
 
 .feedbackbox {

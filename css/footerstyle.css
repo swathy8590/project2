@@ -1,17 +1,14 @@
-
-
-
-
-
 .footer {
     background: #0D0D0D;
     padding-top: 70px
 }
 
-.footermain{height: auto;
-display: grid;
-grid-template-columns: auto auto auto auto;
-padding: 0 8% 0 8%;}
+.footermain {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 8% 0 8%;
+}
 
 
 .footerbox {
@@ -76,5 +73,3 @@ padding: 0 8% 0 8%;}
     margin-top: 10px;
     font-size: 15px;
 }
-
-

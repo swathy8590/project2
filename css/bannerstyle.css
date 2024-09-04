@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 .banner {
     height: 836px;
     background: url(../image/beautiful-black-family-holding-cardboard-roof-dreaming-of-new-home.jpg) no-repeat 3px -20px;
@@ -93,14 +86,14 @@
 
 }
 
-.searchmain{
+.searchmain {
     box-sizing: border-box;
     padding-left: 13px;
     height: 31px;
     background: #dadada;
     width: 100%;
     border: none;
-  
+
 }
 
 
@@ -108,9 +101,9 @@
     display: none;
 }
 
-.menunavigation{
+.menunavigation {
     padding: 7% 0 0 7%;
-   display: none;
+    display: none;
     z-index: 999;
     width: 83%;
     height: 100vh;
@@ -119,30 +112,32 @@
     position: fixed;
     transition: 1s all;
     z-index: 999;
-   
+
 }
 
 
-.searchhmobile{display: none;}
+.searchhmobile {
+    display: none;
+}
 
-.searchmainn{
-  box-sizing: border-box;
-  padding-left: 13px;
-  height: 31px;
-  background: #dadada;
-  width: 90%;
-  height: 46px;
-  border: none;
+.searchmainn {
+    box-sizing: border-box;
+    padding-left: 13px;
+    height: 31px;
+    background: #dadada;
+    width: 90%;
+    height: 46px;
+    border: none;
 }
 
 
 
 
-.backbutton{
+.backbutton {
     margin-bottom: 25px;
     width: 57px;
     height: 27px;
-   
+
 }
 
 
@@ -152,9 +147,9 @@
 
 
 
-.logonav{
+.logonav {
     width: 62px;
-    height: 33px;  
+    height: 33px;
 }
 
 
@@ -194,12 +189,11 @@
 
 .getinsurancee {
     width: 25%;
-    height: 35px;
     background: var(--orange);
     border-radius: 5px 5px 5px 5px;
     color: #ffffff;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
     cursor: pointer;
     font-family: roboto;
     margin-top: 10px;
@@ -216,7 +210,7 @@
     font-size: 40px;
     position: absolute;
     top: 335px;
-    left:4%;
+    left: 4%;
     text-shadow: -1px 3px 3px rgb(0 0 0 / 50%);
 }
 
@@ -225,5 +219,3 @@
 .heading {
     font-family: "poppins";
 }
-
-
